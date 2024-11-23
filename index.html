@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMD AI</title>
+    <link rel="icon" href="/assets/pmdcircle.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link ke file CSS -->
+    <style>
+        /* CSS untuk watermark */
+        .watermark {
+            position: fixed; /* Memastikan posisi tetap di bawah */
+            bottom: 10px; /* Jarak dari bawah */
+            left: 50%; /* Memposisikan di tengah */
+            transform: translateX(-50%); /* Menggeser ke kiri setengah lebar elemen */
+            font-size: 12px; /* Ukuran font kecil */
+            color: rgba(0, 0, 0, 0.5); /* Warna font dengan transparansi */
+            text-align: center; /* Rata tengah */
+            z-index: 1000; /* Pastikan di atas elemen lain */
+        }
+    </style>
+</head>
+<body>
+    <h1>Chat with PMD AI</h1>
+    <div id="messages"></div>
+
+    <div class="input-area">
+        <textarea id="userInput" placeholder="Ketik pesan Anda di sini..." rows="1"></textarea>
+        <button id="sendButton"><i class="fas fa-paper-plane"></i></button>
+    </div>
+
+    <!-- Watermark -->
+    <div class="watermark">Copyright by Rza2005</div>
+
+    <script src="script.js"></script> <!-- Link ke file JavaScript -->
+</body>
+</html>
+
+Powered by : Rza 2005 Ai
